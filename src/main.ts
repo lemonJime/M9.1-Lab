@@ -1,3 +1,8 @@
 import "./style.css";
 
-console.log("Hello Typescript!");
+import { productos } from "./modelo";
+import { calculaTicket } from "./ticket";
+
+console.log(calculaTicket(productos));
+
+
